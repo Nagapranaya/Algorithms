@@ -8,7 +8,7 @@ import os
 
 var a = [19,5,2,50,20,5]
 var sortedArray = [Int]()
-for i in 0...a.count-1{
+for _ in 0...a.count-1{
     if a.count == 1{
         sortedArray.append(a[0])
         break
